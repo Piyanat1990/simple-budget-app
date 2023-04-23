@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Requirement } from '../requirement';
 
 @Component({
   selector: 'app-requirement-list',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./requirement-list.component.css']
 })
 export class RequirementListComponent {
+  requirements:Requirement[]= [
 
+  ]
+  
 }
